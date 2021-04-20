@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+.margen {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 2%;
+  border: solid #6d7473 10px;
+  border-radius: 10px;
+}
+
+/* Navigation */
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+  background: #32353a;
+  border-radius: 10px;
+}
+
+.nav-brand {
+  width: 50px;
+  color: #fff;
+  margin-left: 50px;
+
+}
+
+/* Navbar Left */
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 2px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
+}
+.left {
+  margin-left: auto;
+  margin-right: 30px;
+}
+.content
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+.content .titulo{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.wrapper {
+  margin-top:40px;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 ;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2 ;
+  grid-row: 1 ;
+}
+.subtitulo{
+    color: #fff;
+    font-size: 2em;
+}
+.espacio{
+    margin-left: 250px;
+}
+.btn{
+    width: 300px;
+    height:100px;
+    font-size: 1.5em;
+     border: none;
+     border-radius: 20px;
+}
+.boton-azul{
+    background: #35789e;
+    color: #fff;
+    font-weight: bold;
+
+}
+.margen-derecha{
+    margin-right: 150px;
+}
