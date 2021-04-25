@@ -1,0 +1,9 @@
+.titulo{
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+.barras{
+    border-top:10px double grey ;
+    border-bottom: 10px double grey;
+}

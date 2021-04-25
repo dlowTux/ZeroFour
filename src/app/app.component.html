@@ -4,58 +4,95 @@
 <head>
     <meta charset="UTF-8" />
     <title>Zerofour</title>
-    <link href="app.component.css" rel="stylesheet" />
 </head>
 
-<body class="fondo">
-    <div class="margen">
-        <nav class="nav-main">
-            <!-- Brand -->
-            <h2 class="nav-brand">Zerofour</h2>
-            <!-- Left Nav -->
-            <div class="left">
-                <ul class="nav-menu">
-                    <li>
-                        <a href="#">HOME</a>
-                    </li>
-                    <li>
-                        <a href="#">DROPDOWN</a>
-                    </li>
-                    <li>
-                        <a href="#">LEFT SIDEBAR</a>
-                    </li>
-                    <li>
-                        <a href="#">RIGHT SIDEBAR</a>
-                    </li>
-                    <li>
-                        <a href="#">NO SIDEBAR</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <div class="content">
-        <hr />
-        <hr />
-        <h1 class="titulo">ZEROFOUR: A FREE RESPONSIVE SITE TEMPLATE</h1>
-        <h1 class="titulo">BUILT ON HTML5 AND CSS3 BY HTML5 UP</h1>
-        <hr />
-        <hr />
-        <div class="wrapper">
-            <div class="one">
-                <h1 class="subtitulo">DOES THIS STATEMENT MAKE YOU WANT TO</h1>
-                <h1 class="subtitulo espacio">CLIK THE BIG SHINY BUTTON?</h1>
-            </div>
-            <div class="two">
-                <button class="btn boton-azul margen-derecha">
-                    <span>
-                        <fa-icon [icon]="faCoffee"></fa-icon>
-                    </span>
-                    YES IT DOES
-                </button>
+<body>
+    <section id="Head" class="cuadro fondo">
+        <br />
+        <br />
+        <div class="margen">
+            <app-navbard></app-navbard>
+        </div>
+        <div class="content mt5">
+            <app-message></app-message>
+            <div class="wrapper">
+                <div class="one">
+                    <h1 class="subtitulo">DOES THIS STATEMENT MAKE YOU WANT TO</h1>
+                    <h1 class="subtitulo espacio">CLIK THE BIG SHINY BUTTON?</h1>
+                </div>
+                <div class="two">
+                    <button class="btn boton-azul margen-derecha">
+                        <span>
+                            <fa-icon [icon]="faCoffee"></fa-icon>
+                        </span>
+                        YES IT DOES
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="cuadro">
+        <div class="content">
+            <div class="barras">
+                <h1 class="title">THIS IS AN IMPORTANT HEADING</h1>
+                <label class="small-text opacity">AND THIS IS WHERE WE TALK ABOUT WHY WE'RE
+                </label>
+                <span class="bold "> PRETY AWESOME</span>
+
+            </div>
+
+            <app-card></app-card>
+            <div class="box">
+                <div class="c1">
+                    <div class="box">
+                        <div class="c1">
+
+                            <fa-icon [icon]="faUser" class="icon"></fa-icon>
+                        </div>
+                        <div class="c1">
+                            <div class="alig">
+                                <h1 class="negritas">HERE'S A HEADING</h1>
+                                <h5>AND A SUBTITLE</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c1">
+                    <div class="box">
+                        <div class="c1">
+                            <fa-icon [icon]="faMeh" class="icon"></fa-icon>
+
+                        </div>
+                        <div class="c1">
+                            <div class="alig">
+                                <h1 class="negritas">HERE'S A HEADING</h1>
+                                <h5>AND A SUBTITLE</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="c1">
+                    <div class="box">
+                        <div class="c1">
+                            <fa-icon [icon]="faOm" class="icon"></fa-icon>
+
+                        </div>
+                        <div class="c1">
+                            <div class="alig">
+                                <h1 class="negritas">HERE'S A HEADING</h1>
+                                <h5>AND A SUBTITLE</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="parrafo">
+                Sit ipsum voluptate doloribus at voluptas illum corporis fugiat? Culpa necessitatibus aut unde sequi
+                beatae Placeat voluptate asperiores ea fugiat eligendi Fugit consectetur unde qui fuga perspiciatis
+                Mollitia exercitationem nisi.
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>

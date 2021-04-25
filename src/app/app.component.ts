@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { faMeh } from '@fortawesome/free-solid-svg-icons';
+import { faBan } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,5 +10,8 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'zerofour';
+    faOm=faBan;
+    faMeh=faMeh;
    faCoffee = faCheckCircle; 
+    faUser=faUser;
 }
