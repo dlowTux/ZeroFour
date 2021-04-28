@@ -71,14 +71,25 @@
   font-size: 1.5em;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
+
 }
 .boton-azul {
   background: #35789e;
   color: #fff;
   font-weight: bold;
 }
+.boton-negro{
+    background: black;
+    color: #fff;
+    font-weight: bold;
+}
 .margen-derecha {
   margin-right: 150px;
+}
+.title1{
+    font-weight: bold;
+    font-size: 2.5em;
 }
 .title{
     font-weight: bold;
@@ -91,6 +102,9 @@
 .opacity{
     opacity: 0.6;
 }
+.gris{
+    background: #EBE9E9;
+}
 .bold{
     opacity: 1;
     font-weight: bold;
@@ -98,6 +112,9 @@
 .barras{
     padding: 60px;
     border-bottom: double 10px grey;
+}
+.seperacion{
+    width: 80%;
 }
 .box {
   display: flex;
@@ -118,6 +135,7 @@
 }
 .parrafo{
     margin-top:5%;
+    margin-bottom: 60px;
 }
 .negritas{
     font-weight: bold;
