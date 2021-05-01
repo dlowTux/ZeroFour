@@ -9,6 +9,7 @@ import { NavbardComponent } from './navbard/navbard.component';
 import { MessageComponent } from './message/message.component';
 import { ButtonComponent } from './button/button.component';
 import { BardComponent } from './bard/bard.component';
+import { TercerComponent } from './tercer/tercer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BardComponent } from './bard/bard.component';
     NavbardComponent,
     MessageComponent,
     ButtonComponent,
-    BardComponent
+    BardComponent,
+    TercerComponent
   ],
   imports: [
     BrowserModule,

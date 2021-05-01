@@ -10,6 +10,10 @@
   width: 100%;
   height: 100vh;
 }
+.cuadros {
+  width: 100%;
+  height: auto;
+}
 .fondo {
   background: #485563; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -18,6 +22,9 @@
     #485563
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #29323c, #485563);
+}
+.blanco {
+  background: white;
 }
 
 .margen {
@@ -38,6 +45,9 @@
 .ms {
   margin-top: 60px;
 }
+.ma {
+  margin-top: 10%;
+}
 .box {
   display: flex;
   flex-direction: row;
@@ -57,13 +67,14 @@
   color: white;
 }
 .fondo-crema {
-  background: #f8f3f3;
+  background:  #f8f3f3;
 }
 .contenedor {
   width: 80%;
-  height: 100vh;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  padding: 60px;
 }
 
 .titulo {
@@ -89,6 +100,11 @@
   color: black;
   font-weight: bold;
 }
+.texto-centrado {
+  text-align: center;
+}
+@media (max-width: 1323) {
+}
 @media (max-width: 768px) {
   .box {
     display: flex;
@@ -113,7 +129,6 @@
     font-size: 1.5em;
   }
   .mg {
-
     margin-top: 30%;
   }
 }
