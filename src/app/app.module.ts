@@ -8,6 +8,7 @@ import { CardComponent } from './card/card.component';
 import { NavbardComponent } from './navbard/navbard.component';
 import { MessageComponent } from './message/message.component';
 import { ButtonComponent } from './button/button.component';
+import { BardComponent } from './bard/bard.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ButtonComponent } from './button/button.component';
     CardComponent,
     NavbardComponent,
     MessageComponent,
-    ButtonComponent
+    ButtonComponent,
+    BardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,8 @@
-
+.titulo {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+}
 .barras{
     text-align: center;
     border-top:10px double grey ;

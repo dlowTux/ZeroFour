@@ -1,0 +1,6 @@
+.bar{
+    width: 100%;
+    height: auto;
+    border-bottom: double #dbdbdb 10px;
+    margin-top: 5%;
+}
