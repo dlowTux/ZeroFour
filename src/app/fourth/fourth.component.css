@@ -87,6 +87,9 @@ p {
     display: flex;
     flex-direction: column;
   }
+  .btn{
+      width: 100%;
+  }
   .column {
     flex: 1;
   }
@@ -98,6 +101,6 @@ p {
 }
 .imagen {
   width: 100%;
-  height: 200px;
+  height: 400px;
 }
 }

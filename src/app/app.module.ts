@@ -11,6 +11,7 @@ import { ButtonComponent } from './button/button.component';
 import { BardComponent } from './bard/bard.component';
 import { TercerComponent } from './tercer/tercer.component';
 import { FourthComponent } from './fourth/fourth.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FourthComponent } from './fourth/fourth.component';
     ButtonComponent,
     BardComponent,
     TercerComponent,
-    FourthComponent
+    FourthComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
