@@ -10,6 +10,7 @@ import { MessageComponent } from './message/message.component';
 import { ButtonComponent } from './button/button.component';
 import { BardComponent } from './bard/bard.component';
 import { TercerComponent } from './tercer/tercer.component';
+import { FourthComponent } from './fourth/fourth.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TercerComponent } from './tercer/tercer.component';
     MessageComponent,
     ButtonComponent,
     BardComponent,
-    TercerComponent
+    TercerComponent,
+    FourthComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,103 @@
+.grande {
+  width: 80%;
+}
+.peque {
+  width: 20%;
+}
+.filas {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  flex: auto;
+}
+.c {
+  flex: 100%;
+}
+.card {
+  flex: auto;
+}
+.bold {
+  font-weight: bold;
+}
+.title {
+  font-size: 2em;
+}
+.opacity {
+  opacity: 0.3;
+}
+.imagen {
+  width: 200px;
+  height: 200px;
+}
+
+.fecha {
+  font-size: 15px;
+}
+.texto-izquierda {
+  justify-content: start;
+  padding: 20px;
+  text-align: left;
+}
+.portada {
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+}
+.mt-5 {
+  margin-top: 50px;
+}
+p {
+  opacity: 0.7;
+}
+.btn {
+  width: 60%;
+  height: 60px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.centrado {
+  display: flex;
+}
+.btn-azul {
+  background: #3880a9;
+  color: white;
+}
+.btn-negro {
+  background: #3f4249;
+  color: white;
+}
+.barras {
+  width: 90%;
+  height: auto;
+  border-bottom: solid #dbdbdb 1px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+@media (max-width: 768px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .column {
+    flex: 1;
+  }
+  .grande {
+  width: 100%;
+}
+.peque {
+  width: 100%;
+}
+.imagen {
+  width: 100%;
+  height: 200px;
+}
+}

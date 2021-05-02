@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 .mg {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .ms {
   margin-top: 60px;
@@ -73,5 +73,9 @@
   }
   .btn{
       margin-top: 30px;
+  }
+  .mg{
+  margin-top: 5%;
+
   }
 }
