@@ -5,6 +5,9 @@
 }
 .barras{
     text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     border-top:10px double grey ;
     border-bottom: 10px double grey;
 }

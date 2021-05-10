@@ -12,6 +12,14 @@
 .c {
   flex: 50%;
 }
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.c1 {
+  flex: 50%;
+}
 .btn {
   width: 30%;
   height: 60px;
@@ -49,19 +57,22 @@ p {
 .text-center {
   text-align: center;
 }
+.rojo{
+    background: red;
+}
 @media (max-width: 768px) {
+    
   .box {
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
-  .column {
-    flex: 100%;
-  }
+  
   .mg {
-    margin-top: 5%;
+    margin-top: 2%;
   }
   .margen5 {
-    margin-top: 5%;
+    margin-top: 2%;
   }
   .btn{
       width: 100%;
@@ -69,4 +80,10 @@ p {
   .margen{
       margin-top: 2%;
   }
+  .margenboton{
+      margin: 20px;
+  }
+ .c1 {
+  flex: 100%;
+} 
 }

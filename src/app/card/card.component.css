@@ -47,7 +47,9 @@
 }
 
 @media (max-width: 768px) {
-
+    .imagen{
+        width: 100%;
+    }
     .icono{
         text-align: center;
     }
@@ -55,5 +57,8 @@
     
     .icono{
         font-size: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
+   
 }
