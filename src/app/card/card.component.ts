@@ -11,7 +11,6 @@ export class CardComponent implements OnInit {
     faOm=faBan;
     faMeh=faMeh;
     faAt=faAt;
-
   constructor() { }
 
   ngOnInit(): void {
